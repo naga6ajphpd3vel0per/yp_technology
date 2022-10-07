@@ -1,5 +1,6 @@
 name: Publish Website to CPanel 
 on:
+  pull_request:
   push:
     branches:
       - master
